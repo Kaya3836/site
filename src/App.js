@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Home, Navbar } from "./component";
+
+const data = {
+  name: "Instant collaborations for remote teams",
+  exp: "All in one for your remote team chats, collaboration and track projects",
+  h2: "Your Hub for teamwork",
+  h3: "Simple task management",
+  p: "Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.",
+  h4: "Scheduling that actually works",};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route index element={<Home {...data} />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
