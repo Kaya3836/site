@@ -123,7 +123,7 @@
     height: 10px;
 }
 
-/* section03 */
+/* section04 */
 
 
 .first3 {
@@ -139,6 +139,28 @@
     width: 480px;
     margin-right: 300px;
 }
+
+/* section05 */
+
+.section5 {
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F5;    
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.heading5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.row {
+    display: flex;
+}
+
 
 
 

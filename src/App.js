@@ -8,7 +8,10 @@ const data = {
   h2: "Your Hub for teamwork",
   h3: "Simple task management",
   p: "Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.",
-  h4: "Scheduling that actually works",};
+  h4: "Scheduling that actually works",
+  heading5: "What people say about us"
+}
+
 
 function App() {
   return (

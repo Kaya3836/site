@@ -1,0 +1,38 @@
+.body {
+    display: flex;
+    width: 70vw;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container01 {
+    height: 350px;
+    width: 340px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 45px;
+    margin-left: 20px;
+    overflow: hidden ;
+  }
+  .stars {
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .text {
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+  }
+  .profile {
+    margin-top: 70px;
+    display: flex;
+    width: 170px;
+    justify-content:space-between;
+    font-weight: bold;
+  }
+  
+  
+  
+  
